@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SkillComponent } from './skill/skill.component';
@@ -11,7 +11,9 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    SkillComponent,
+    QualitiesComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,
